@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gestion de produit</title>
+	<link rel="stylesheet" type="text/css" href="produit.css">
+</head>
+<body>
+	<!-- Votre contenu HTML ici -->
+</body>
+</html>
+<form action="ajout.php" method="POST">
+<h1>Formulaire d'ajout de nouveaux produits pour la gestion des produits médicaux</h1>
+  <label for="nom">Nom :</label>
+  <input type="text" id="nom" name="nom" required><br><br>
+
+	<label for="nom">Prix :</label>
+  <input type="text" id="prix" name="prix" required><br><br>
+
+  <label for="description">Description :</label>
+  <textarea id="description" name="description" required></textarea><br><br>
+
+  <label for="numero_identification">Numero d'identification :</label>
+  <input type="text" id="numero_identification" name="numero_identification" required><br><br>
+
+  <label for="date_expiration">Date d'expiration :</label>
+  <input type="date" id="date_expiration" name="date_expiration" required><br><br>
+
+  <input type="submit" value="Ajouter">
+</form>
